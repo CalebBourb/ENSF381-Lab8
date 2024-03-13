@@ -33,6 +33,6 @@ return axios.post(`${BASE_URL}/add`,JSON.stringify(product));
 
 // Edits an existing product by ID
 export const editProduct = (id, product)=>{
-// implement it using similar logic as addProduct function but use axios .
-put method
+    // implement it using similar logic as addProduct function but use axios .
+    put method
 }
