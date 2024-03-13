@@ -1,10 +1,10 @@
-import React from ' react ';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react - router - dom';
+import React from 'react';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import {ProductsProvider} from './context/ProductsContext';
-import ProductList from './ components / ProductList ';
-import NotFoundPage from './ components / NotFoundPage ';
-import HomePage from './ components / HomePage ';
-import './ App . css ';
+import ProductList from './components/ProductList';
+import NotFoundPage from './components/NotFoundPage';
+import HomePage from './components/HomePage';
+import './App.css';
 
 function App(){
   return(

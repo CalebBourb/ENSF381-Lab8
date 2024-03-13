@@ -1,6 +1,6 @@
-import React , { useEffect , useState } from ' react ';
-import { fetchProducts } from '../ services / apiService ';
-import { useProductsContext } from '../ context / ProductsContext ';
+import React , { useEffect , useState } from 'react';
+import { fetchProducts } from '../services/apiService';
+import { useProductsContext } from '../context/ProductsContext';
 
 const ProductList = () => {
     const { products , setProducts } = useProductsContext () ;
